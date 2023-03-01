@@ -16,7 +16,7 @@
         let positivo = 1
 
         function num(numero){
-            if(numero >= 0){
+            if(numero > 0){
                return 1
                
             }else if(numero <= 0){
@@ -26,6 +26,8 @@
         }
         document.write(num(numero))
 
+
+        //  Essa atividade estava diretamente relacionada com número positivo e negativo,então veio de primeira idéia de fazer para negativo menor que 0,coloquei o = só pelo fato de não ter dado certo só com < ,mas na lógica seria,já que em casos não consideram o 0 um número negativo,mas voltando ao fato,no positivo era só checar se era maior que zero então daria certo.(de primeira não,mas de segunda e muitos giros na cadeira sim.).                                                           Em relação ao motivo da declaração de cada item,os let: conclui que mesmo ocupando mais linhas ficou muitos mais organizado e deu um resultado mais facíl de entender,já em relação ao numero eu escolhi colocar especificamente na pergunta que fosse inteiro paa evitar casos de erros caso o usuario pensasse que daria certo com um decimal.No caso do 0 e 1 eu resolvi declarar como variaveis com seus significados dados na questão pór não ter funcionado quando coloquei dentro da função.Agora a função eu coloquei o mesmo esquema de if e else if da segunda,sendo que enves de soma e subtração ele iria retonar o 1 se o número fosse maior que zero e o else if ia retornar 0 se o número fosse maior ou igual 0 que daria como negativo. Por fim também optei usar pelo document.write para não procurar no console e me familiarizar melhor.(mesmo que quando eu tenha testado tenha olhado pelo console,quase achando que tinha dado errado.)  
     </script>
 </body>
 </html>
